@@ -1,0 +1,85 @@
+.footer {
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.foto {
+  padding-top: 20px;
+  width: 100%;
+height: 550px;
+object-fit: cover;
+}
+
+
+@media (min-width: 992px) {
+.tela{
+  display: grid;
+place-items: center;
+}}
+
+
+.caixa {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 40%;
+  height: 550px;
+  margin-top: 5.4rem;
+  text-align: center;
+  padding: 20px;
+  line-height: 9px;
+  margin-right: 1rem;
+}
+
+.small-text {
+  font-size: 15px;
+
+}
+
+
+main {
+  background-color: #ebe6e6;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  display: grid;
+  place-items: center;
+  background-color: #ebe6e6;
+}
+
+
+h1 {
+  margin-top: 20px;
+}
+
+
+@media (max-width: 391px) {
+  .tela {
+    padding-left: 3rem;
+    margin: 4rem 0;
+    max-height: 800px;
+
+  }
+ main {
+    height: 1300px;
+  }
+
+  }
+
+
+
+
+
+  .caixa{
+    width: 500px;
+  }
+
+
+
+
+

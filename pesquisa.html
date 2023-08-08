@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Busca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="pesquisa.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/559e095fe9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../assets/bejeweled2.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+<header>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: white;">
+      <div class="container-fluid">
+        <a href="index1.html">
+            <img src="logo.png" class="logo" alt="logo" width="180">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="row w-100">
+            <div class="col-lg-4">
+              <p class="mt-3">Bem vindo! </p>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="searchInput">O que você está procurando:</label>
+                    <div class="input-group">
+                      <input type="text" id="searchInput" class="form-control" placeholder="Digite aqui...">
+                      <div class="input-group-append">
+                        <button id="searchButton" class="btn btn-outline-dark">Buscar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4"></div>
+
+            <div class="col-lg-4">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Entre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Cadastre-se</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Minha conta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Rastreie seu pedido</a>
+                </li>
+              </ul>
+
+              <div class="row cash-delivery">
+                <p class=" col-lg-8"> </p>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p class="header-text escrito">Pagamento na Entrega |
+                      Devolução em até 30 dias<br>Atendimento ao
+                      Cliente 24 horas
+                      <b>0800 00 11 22</b>
+                    </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <a href="#"
+                      class="btn btn-outline-dark fa-solid fa-cart-shopping"
+                      style="--bs-btn-padding-y: .60rem; --bs-btn-padding-x: .50rem; --bs-btn-font-size: .80rem;">
+                      <p id="carrinho">My Cart</p>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<main>
+    <section class="product-section container-fluid mt-5" id="products">
+    </section>
+</main>
+
+    <footer>
+        <div class="container-fluid">
+          <div class="row footer ">
+            <div class="col-md-3">
+              
+              <p>Formas de pagamento
+              </p>
+              <i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-brands fa-cc-mastercard"></i>
+              <i class="fa-brands fa-cc-paypal"></i>
+              <i class="fa-brands fa-cc-apple-pay"></i>
+              <i class="fa-brands fa-cc-amex"></i>
+              <i class="fa-brands fa-cc-amazon-pay"></i>
+              <i class="fa-brands fa-pix"></i>
+              <i class="fa-solid fa-barcode"></i>
+            </div>
+    
+            <div class="col-md-3">
+              <div class="links">
+              <p> Links rápidos
+              </p>
+              <ul class="links ps-0">
+                <li><a class="links" href="#">Ajuda</a></li>
+                <li><a class="links" href="#">Políticas de privacidade</a></li>
+                <li><a class="links" href="#">Trocas e devoluções</a></li>
+                <li><a class="links" href="#">Dúvidas frequentes</a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="col-md-3">
+              <p>Nos encontre nas redes sociais!
+              </p>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="col-md-3">
+              <p>Contato
+              </p>
+              <ul class="links ps-0">
+                <li class="links">Ana Júlia Teixeira Cândido</li>
+                      <li class="links">801655</li>
+                      <li class="links">Engenharia de Software</li>
+              </ul>
+            </div>
+    
+          </div>
+          <div class="copyright">
+          Copyright 2023 - Todos os direitos reservados AJstore.com
+          </div>
+        </footer>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="filtros.js"></script>
+
+    <script>
+        $('#searchButton').click(async() =>{ await displayProducts})
+
+function getSearchTerm() {
+  const searchParams = new URLSearchParams(window.location.search);
+  return searchParams.get('search');
+}
+
+
+function filterProducts(products, searchTerm) {
+  if (!searchTerm) {
+    return products;
+  }
+
+  searchTerm = searchTerm.toLowerCase();
+  return products.filter(function(product) {
+    const title = product.title.toLowerCase();
+    const category = product.category.toLowerCase();
+    return title.includes(searchTerm) || category.includes(searchTerm);
+  });
+}
+
+async function displayFilteredProducts() {
+  const searchTerm = getSearchTerm();
+  const filteredProducts = await fetchProducts(searchTerm);
+  const productsDiv = $('#products');
+
+  productsDiv.empty();
+  if (filteredProducts.length) {
+    filteredProducts.forEach(function(product) {
+      productsDiv.append(createProductCard(product));
+    });
+  } else {
+    productsDiv.append(`
+      <div class="col-12">
+        <h5 class="text-center">Nenhum produto encontrado.</h2>
+      </div>
+    `);
+  }
+}
+displayFilteredProducts();
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
